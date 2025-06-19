@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar.png" alt="avatar da Luisa" class="rounded-circle" width="150" height="150" srcset="">
+        <p class="lead">Luisa Pollastri</p>
+        <h1>Eu estudo Programação</h1>
+        <p>Sou estudante do Culto a Ciencia. Faço programação ha 2 anos, por conta do meu itinerário. Sempre com a
+            orientação de algum professor. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/terrorbooks.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Terror Books: Indicações de Livros.</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta uma lista de novos lançamentos
+                            de livos de terror, contém também outra lista de livros mais vendidos. Há também uma
+                            observação sobre
+                            os atores do mês.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/paranormalflix.png" class="card-img-top"
+                        alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">ParanormalFlix</h5>
+                        <p class="card-text">Este projeto é um site onde é possivel assistir todos os episódios de um
+                            RPG chamado "Ordem Paranormal: Calamidade", feito por um youtuber famoso conhecido como
+                            Cellbit.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/jogos.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogos
+                        </h5>
+                        <p class="card-text">Este projeto é sobre responder algumas perguntas de diferentes jogos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto consiste em uma página web desenvolvida com HTML e CSS, cujo objetivo é apresentar
+                        uma coleção pessoal de livros favoritos. A ideia é criar um espaço virtual onde você pode
+                        compartilhar seus livros preferidos, incluindo uma breve descrição de cada um e informações do
+                        autor do mês.</p>
+
+                    <p> A estrutura do site é construída em HTML, que organiza o conteúdo de forma semântica e define o
+                        layout geral. O CSS é utilizado para estilizar visualmente a página, aplicando cores, tipografia
+                        e disposição dos elementos de maneira atraente.</p>
+
+                    <p> No layout, há um cabeçalho com o título do site, seguido por uma área principal (.container) que
+                        explica o propósito do site e exibe a coleção de livros em uma seção flexível (.livros). Cada
+                        livro é destacado em seu próprio contêiner (.livro), contendo uma imagem da capa, detalhes do
+                        livro e um link para compra. O design responsivo é garantido pelo uso da meta tag viewport e por
+                        um layout flexível que se adapta a diferentes tamanhos de tela. </p>
+
+                    <p> O CSS personaliza o visual do site, utilizando variáveis para cores, uma fonte importada do
+                        Google Fonts e um esquema de cores suaves. Botões interativos também são utilizados para
+                        melhorar a experiência do usuário. A combinação de HTML e CSS permite criar um site acessível,
+                        bonito e fácil de navegar, sem a necessidade de scripts complexos. A escolha da tipografia e das
+                        cores contribui para uma atmosfera acolhedora, incentivando os visitantes a explorarem a coleção
+                        de livros.</p>
+
+                    <img src="img/terrorbooks.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://luisapcc.github.io/terrorbooks/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/luisapcc/terrorbooks">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto consiste em uma página web que apresenta uma coleção de um RPG feito por um
+                        youtuber.
+                        Desenvolvida com HTML e CSS, a página tem como objetivo criar um espaço virtual onde você pode
+                        assistir todos os episódios desse RPG. </p>
+
+                    <p> A estrutura do site é construída em HTML, que organiza o conteúdo de forma semântica,
+                        dividindo-o em seções como o cabeçalho, a introdução e a coleção de livros. O CSS é utilizado
+                        para estilizar visualmente a página, aplicando cores suaves, tipografia atraente e um layout
+                        responsivo que se adapta a diferentes tamanhos de tela, garantindo uma navegação agradável em
+                        qualquer dispositivo. </p>
+
+                    <p> Na página, há uma área principal (.container) que explica o propósito do site e exibe a coleção
+                        de episódios em uma seção flexível (.episódios). Cada episódios é destacado em seu próprio
+                        contêiner
+                        (.episódios), contendo uma imagem da capa, detalhes da thumbnail, como título, youtuber, ano de
+                        publicação,
+                        além de um link para assistir. O design responsivo é garantido pelo uso da meta tag viewport e
+                        por
+                        um layout flexível que se ajusta às diferentes resoluções de tela. </p>
+
+                    <p> A combinação de HTML e CSS permite criar um site acessível, bonito e fácil de navegar, sem a
+                        necessidade de scripts complexos. Essa abordagem incentiva os visitantes a explorarem a coleção
+                        de forma intuitiva e agradável, promovendo uma experiência de descoberta e apreciação dos livros
+                        favoritos. </p>
+                    </p>
+                    <img src="img/paranormalflix.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://luisapcc.github.io/ParanormalFLIX/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/luisapcc/ParanormalFLIX">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Este projeto é uma página web que apresenta uma coleção pessoal de livros favoritos. Desenvolvida
+                        com HTML e CSS, a finalidade é criar um espaço interativo onde os visitantes podem responder
+                        diferentes perguntas sobre jogos, tornando a
+                        nave gação
+                        agradável e informativa. </p>
+
+                    <p> Cada pergunta possui uma estrutura que inclui uma imagem da capa, uma pequena pergunta, e atrás
+                        é possivel ver as respostas. A página é organizada em
+                        seções, com um layout responsivo que se adapta a diferentes tamanhos de tela, garantindo uma
+                        experiência consistente em computadores, tablets e celulares. </p>
+
+                    <p> A estrutura do site utiliza HTML para dividir o conteúdo em elementos semânticos, como
+                        cabeçalhos, parágrafos e contêineres específicos para cada pergunta. O CSS é responsável por
+                        estilizar a página, aplicando cores suaves, tipografia atraente e um layout flexível que
+                        facilita a navegação. </p>
+
+                    <p> Para tornar a experiência mais interativa, o site pode incluir recursos adicionais, como filtros
+                        por categorias ou destaque de detalhes ao clicar no mouse, usando JavaScript. Assim, os
+                        visitantes podem explorar a coleção de forma dinâmica e envolvente, incentivando o público a
+                        conhecer mais sobre seus jogos favoritos.</p>
+                    <img src="img/jogos.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://luisapcc.github.io/perguntasssssss/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/luisapcc">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Fernanda Mascheti</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
